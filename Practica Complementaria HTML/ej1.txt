@@ -1,0 +1,15 @@
+Ejercitación 1 - Responder el siguiente cuestionario
+1. ¿Ventajas de HTML5?
+2. ¿Por qué utilizarlo?
+3. Nombre ventajas
+
+1. Algunas de las ventajas de HTML5 en comparación a sus versiones anteriores es que permite añadir audio y video sin necesidad de usar Flash u otro reproductor multimedia. Toda la acción sucede desde el propio navegador, lo que puede ayudar a disminuir al tamaño del archivo final de la página.
+
+2. Se usa para definir la estructura básica de una pagina web.
+
+3. Las principales ventajas de HTML5 SON:
+-Es gratuito
+-Código mas ordenado
+-Compatibilidad en navegadores
+-Almacenamiento mejorado
+-Diseño adaptativo

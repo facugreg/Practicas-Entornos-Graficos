@@ -1,0 +1,40 @@
+Ejercicios
+Ejercitación 1 - Responder el siguiente cuestionario
+1. Qué es HTML, cuando fue creado, cuáles fueron las distintas versiones y cuál es la última?
+2. ¿Cuáles son los principios básicos que el W3C recomienda seguir para la creación de documentos con HTML?
+3. En las Especificaciones de HTML, ¿cuándo un elemento o atributo se considera desaprobado? ¿y obsoleto?
+4. Qué es el DTD y cuáles son los posibles DTDs contemplados en la especificación de HTML 4.01?
+5. Qué son los metadatos y cómo se especifican en HTML?
+
+1. HTML es un lenguaje de marcado para la elaboración de páginas web. Define una estructura básica y un código para la definición de contenido en una pagina web, como texto, imágenes, videos, juegos, entre otros.
+Fue desarrollado originalmente por Tim Berners-Lee y fue popularizado por el navegador Mosaic.
+Las distintas versiones fueron: HTML, HTML 2.0, HTML+, HTML 3.0, HTML 3.2
+-HTML
+-HTML 2.0
+-HTML+
+-HTML 3.0
+-HTML 3.2
+-HTML 4.0
+-HTML 5.0 (la última)
+
+
+2. Los principios básicos que se recomiendan son:
+-Separar estructura y presentación.
+-Considerar la accesibilidad universal a la Web.
+-Ayudar a los agentes de usuario con la representación incremental.
+
+
+3. Un elemento desaprobado es aquel que ha quedado anticuado por la presencia de estructuras nuevas. Por su parte, un elemento obsoleto es aquel para el cual no hay garantía de soporte por parte de un agente de usuario.
+
+
+4. DTD es la definición de tipo de documento. Define la sintaxis de las estructuras de formato.
+Los posibles DTDs contemplados en la especificación de HTML 4.01 son: 
+-DTD HTML 4.01 Estricto.,
+-DTD HTML 4.01 Transicional.
+-DTD HTML 4.01 para Documentos con Marcos
+
+
+5. Proporcionan información sobre un documento mas allá de su contenido.
+La especificación de metadatos implica dos pasos:
+	1. Declaración de una propiedad y de un valor para esta propiedad.
+	2. Referencia a un perfil en el que se definen la propiedad y 		valores legales.
