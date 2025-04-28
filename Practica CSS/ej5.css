@@ -1,0 +1,47 @@
+/*Ejercicio 1*/
+
+h1 em,
+h2 em,
+h3 em,
+h4 em,
+h5 em,
+h6 em {
+  color: red;
+}
+
+/*Ejercicio 2*/
+div p a[href] {
+  color: black;
+}
+/*Ejercicio 3*/
+div#ultimo ul li {
+  color: yellow;
+}
+div#ultimo ul li a {
+  color: blue;
+}
+/*Ejercicio 4*/
+div #importante {
+  color: green;
+}
+h1 #importante,
+h2 #importante,
+h3 #importante,
+h4 #importante,
+h5 #importante,
+h6 #importante {
+  color: red;
+}
+/*Ejercicio 5*/
+h1[title] {
+  color: blue;
+}
+/*Ejercicio 6*/
+ol a:link {
+  color: blue;
+  text-decoration: none;
+}
+ol a:visited {
+  color: violet;
+  text-decoration: none;
+}

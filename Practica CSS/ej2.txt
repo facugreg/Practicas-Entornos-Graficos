@@ -1,0 +1,35 @@
+Ejercicio 2
+
+Analizar el siguiente código señalando declaraciones y aplicaciones de reglas, y su efecto.
+p#normal {
+font-family: arial,helvetica;
+font-size: 11px;
+font-weight: bold;
+}
+*#destacado {
+border-style: solid;
+border-color: blue;
+border-width: 2px;
+}
+#distinto {
+background-color: #9EC7EB;
+color: red;
+}
+<p id="normal">Este es un párrafo</p>
+<p id="destacado">Este es otro párrafo</p>
+<table id="destacado"><tr><td>Esta es una tabla</td></tr></table>
+<p id="distinto">Este es el último párrafo</p>
+
+1er selector p#normal: Selecciona el párrafo cuyo id sea "normal". Efectos:
+-font-family: arial,helvetica: Establece la fuente del texto en Arial o Helvetica. 
+-font-size: 11px: Define el tamaño de la fuente en 11 píxeles.
+-font-weight: bold: Hace que el texto aparezca en negrita.
+
+2do selector *#destacado: Selecciona elementos cuyo id sea "destacado". Efectos:
+border-style: solid: Establece el estilo del borde como una línea sólida.
+border-color: blue: Define el color del borde como azul.
+border-width: 2px: Establece el grosor del borde en 2 píxeles.
+
+3er selector #distinto: Selecciona elementos cuyo id sea "distinto". Efectos:
+background-color: #9EC7EB: Establece el color de fondo del elemento con el código hexadecimal #9EC7EB 
+color: red: Define el color del texto dentro del elemento como rojo.

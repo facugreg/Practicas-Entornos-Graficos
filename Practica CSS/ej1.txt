@@ -1,0 +1,72 @@
+Ejercicio 1: Responder
+
+
+1. ¿ Qué es CSS y para qué se usa?
+2. CSS utiliza reglas para las declaraciones de estilo, ¿cómo funcionan?
+3. ¿ Cuáles son las tres formas de dar estilo a un documento?
+4. ¿ Cuáles son los distintos tipos de selectores más utilizados?
+Ejemplifique cada uno.
+5. ¿ Qué es una pseudo-clase? Cuáles son las más utilizadas aplicadas a vínculos?
+6. ¿ Qué es la herencia?
+7. ¿ En qué consiste el proceso denominado cascada?
+
+
+1. Es un lenguaje de hojas de estilo. Permite aplicar estilos de manera selectiva a elementos en documentos HTML. CSS describe como los elementos dispuestos en la página son presentados al usuario. Se puede especificar estilos como el tamaño, fuente, color, espaciado entre textos y recuadros así como el lugar donde disponer texto e imágenes en la pagina. Separando el estilo de presentación del contenido de los documentos, CSS simplifica la creación y mantenimiento de los sitios Web.
+
+2. Las reglas de estilo se componen de selectores y declaraciones. 
+Con el selector se especifica el elemento al que se le aplicarán los estilos.
+La declaración, por su parte, consta de propiedad y valor. La propiedad es el aspecto a modificar y el valor es el ajuste que se quiere aplicar a dicha propiedad.
+ 
+3. Las tres formas de dar estilo a un documento son:
+- directamente a la marca
+- en el head de la página
+- agrupar las reglas de estilo en un archivo independiente con extensión .css
+
+4. Los distintos tipos de selectores mas utilizados son:
+-Selector universal: Se corresponde con el nombre de cualquier tipo de elemento. Ejemplo:
+
+* { margin:0;
+	padding:0;
+
+}
+-Selector de tipos: Se corresponde con el nombre de un tipo de elemento en el lenguaje de documento. Ejemplo:
+H1 { font-family: sans-serif }
+
+-Selectores de descendientes: Corresponden a elementos que son descendientes de otro elemento. Se compone de dos o más selectores separados por un espacio en blanco. Ejemplo: 
+
+-Selectores de hijos: Cuando un elemento es hijo de algún elemento. Se compone de dos o mas selectores separados con ">". Ejemplo: BODY > P { line-height: 1.3 }
+
+-Selectores de hermanos adyacentes: Tienen la siguiente sintaxis: E1 + E2, donde E2 es el sujeto del selector. El selector equivale si E1 y E2 comparten el mismo padre en la estructura del documento y E1 precede inmediatamente a E2. Ejemplo:
+H1 + H2 { margin-top: -5mm }   
+
+-Selectores de atributos: Corresponden a atributos definidos.
+Los selectores de atributos puede equivaler de cuatro maneras:
+
+[att]
+Equivale con los elementos que tienen asignado el atributo "att", cualquiera sea el valor del atributo.
+[att=val]
+Equivale cuando el valor del atributo "att" del elemento es exactamente "val".
+[att~=val]
+Equivale cuando el valor del atributo "att" del elemento es una lista de "palabras" separadas por espacios, una de las cuales es exactamente "val". Si se usa este selector, las palabras en el valor no deben contener espacios (ya que ellas están separadas por espacios).
+[att|=val]
+Equivale cuando el valor del atributo "att" del elemento es una lista de "palabras" separadas por guiones, comenzando con "val".
+Ejemplo: H1[title] { color: blue; }
+
+-Selectores de clases: Se utiliza el punto (.) cuando la correspondencia sea con el atributo class. Ejemplo: .pastoral { color: green }
+
+-Selectores de ID: Los selectores ID de CSS equivalen a una instancia del elemento basado en su identificador. Un selector ID de CSS contiene un "#" seguido inmediatamente por el valor de ID. Ejemplo: H1#capitulo1 { text-align: center }
+
+5. Las pseudo-clases clasifican a los elementos basado en características más allá de su nombre, atributos o contenido; en principio, atributos que no pueden deducirse de la estructura del documento. Las pseudo-clases pueden ser dinámicas, en el sentido de que un elemento puede adquirir o perder una pseudo-clase a medida que el usuario interactúa con el documento. 
+Las mas utilizadas aplicadas a vínculos son: 
+:link se aplica a los vínculos que aún no han sido visitados.
+:visited se aplica una vez que el vínculo ha sido visitado por el usuario.
+
+6. La herencia hace referencia a cuando algunos valores son heredados por los hijos de un elemento en la estructura del documento.
+
+7. Las hojas de estilo pueden tener tres orígenes diferentes: el autor, el usuario y la aplicación del usuario.
+
+Autor: El autor especifica las hojas de estilo para un documento fuente de acuerdo a las convenciones del lenguaje del documento. 
+Usuario: El usuario puede especificar información de estilo para un documento particular. 
+Aplicaciones del usuario: Las aplicaciones del usuario con conformidad deben aplicar una hoja de estilo predeterminada previa a todas las hojas de estilo para un documento. La hoja de estilo predeterminada de una aplicación del usuario debe presentar los elementos del lenguaje de documento de un modo que satisfaga las expectativas generales de presentación del lenguaje del documento.
+Las hojas de estilo con estos tres orígenes se superpondrán en su acción e interactuarán de acuerdo a la cascada.
+La cascada de CSS, asigna una fuerza a cada regla de estilo. Cuando varias reglas se aplican, la de mayor fuerza toma preponderancia.
