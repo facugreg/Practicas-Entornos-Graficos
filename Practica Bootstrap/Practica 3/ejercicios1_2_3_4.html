@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous"
+  />
+  <body>
+    <div class="container mt-4">
+      <!-- Primera fila: banner grande -->
+      <div class="row m-3">
+        <div class="col-12 bg-secondary" style="height: 100px"></div>
+      </div>
+
+      <!-- Segunda fila: barra lateral y contenido -->
+      <div class="row m-3">
+        <!-- Barra lateral -->
+        <div class="col-12 col-md-3 bg-danger" style="height: 1225px">
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-toggle="modal"
+            data-target="#dialogo1"
+          >
+            Abrir ventana
+          </button>
+          <div class="modal" tabindex="-1" id="dialogo1" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="model-content">
+                <div class="modal-header">
+                  <h4 class="modal-title">Modal</h4>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    X
+                  </button>
+                </div>
+                <div class="modal-body">Prueba modal</div>
+
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">
+                    Guardar cambios
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-dismiss="modal"
+                  >
+                    Cerrar
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contenido -->
+        <div class="col-12 col-md-9">
+          <!-- Fila verde -->
+          <div class="row ml-1 mr-1">
+            <div class="col-md-12 m-3 bg-success" style="height: 50px">
+              <div class="alert alert-success">
+                <strong>Prueba de componente alert</strong>
+              </div>
+            </div>
+          </div>
+
+          <!-- Fila de cuatro cajas -->
+          <div class="row m-3">
+            <div class="col-3 col-md-3 m-3 bg-secondary" style="height: 350px">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="https://seocom.agency/wp-content/uploads/2019/02/bootstrap-stack-1.png"
+                />
+                <div class="card-body">
+                  <h4 class="card-title">Titulo</h4>
+                  <p class="card-text">Texto descriptivo</p>
+                  <a href="#" class="btn btn-primary">Link</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-3 col-md-3 m-3 bg-secondary" style="height: 350px">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="https://seocom.agency/wp-content/uploads/2019/02/bootstrap-stack-1.png"
+                />
+                <div class="card-body">
+                  <h4 class="card-title">Titulo</h4>
+                  <p class="card-text">Texto descriptivo</p>
+                  <a href="#" class="btn btn-primary">Link</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-3 col-md-3 m-3 bg-secondary" style="height: 350px">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="https://seocom.agency/wp-content/uploads/2019/02/bootstrap-stack-1.png"
+                />
+                <div class="card-body">
+                  <h4 class="card-title">Titulo</h4>
+                  <p class="card-text">Texto descriptivo</p>
+                  <a href="#" class="btn btn-primary">Link</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Segunda fila de cuatro cajas -->
+          <div class="row m-3">
+            <div class="col-3 col-md-3 m-3 bg-secondary" style="height: 350px">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="https://seocom.agency/wp-content/uploads/2019/02/bootstrap-stack-1.png"
+                />
+                <div class="card-body">
+                  <h4 class="card-title">Titulo</h4>
+                  <p class="card-text">Texto descriptivo</p>
+                  <a href="#" class="btn btn-primary">Link</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-3 col-md-3 m-3 bg-secondary" style="height: 350px">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="https://seocom.agency/wp-content/uploads/2019/02/bootstrap-stack-1.png"
+                />
+                <div class="card-body">
+                  <h4 class="card-title">Titulo</h4>
+                  <p class="card-text">Texto descriptivo</p>
+                  <a href="#" class="btn btn-primary">Link</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-3 col-md-3 m-3 bg-secondary" style="height: 350px">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="https://seocom.agency/wp-content/uploads/2019/02/bootstrap-stack-1.png"
+                />
+                <div class="card-body">
+                  <h4 class="card-title">Titulo</h4>
+                  <p class="card-text">Texto descriptivo</p>
+                  <a href="#" class="btn btn-primary">Link</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Fila final con dos cajas grandes -->
+          <div class="row m-3">
+            <div
+              class="col 6 col-md-3 bg-primary m-3"
+              style="height: 300px"
+            ></div>
+            <div class="col 6 col-md-6 bg-primary m-3" style="height: 300px">
+              <div id="ejemplo" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="https://seocom.agency/wp-content/uploads/2019/02/bootstrap-stack-1.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv8xnir3C4Ri9fInTH6hgftpoiVrJtbEA6aQ&s"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="https://codersfree.nyc3.cdn.digitaloceanspaces.com/posts/que-es-bootstrap-y-como-funciona-4-ventajas-de-usarlo.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
