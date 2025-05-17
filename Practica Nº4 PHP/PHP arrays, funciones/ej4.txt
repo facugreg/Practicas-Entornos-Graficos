@@ -1,0 +1,6 @@
+Ejercicio 4
+
+La función consiste en validar el nombre de un usuario. Recibe como parámetro el nombre y devuelve true o false.
+Primero, valida si la longitud del nombre es mayor a 3 caracteres y menor a 20. En caso de no serlo, muestra un mensaje y devuelve false.
+Posteriormente, valida si los caracteres son validos al compararlos uno por uno con una cadena que posee aquellos caracteres validos. En caso de no serlo, muestra un mensaje y devuelve false.
+Finalmente, si el nombre cumple con todos los requisitos mostrará un mensaje y devolverá true.

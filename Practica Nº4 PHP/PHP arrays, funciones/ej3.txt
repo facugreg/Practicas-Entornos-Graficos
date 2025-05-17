@@ -1,0 +1,5 @@
+Ejercicio 3
+
+a) Asigna la fecha y hora a la variable fun y después la muestra con un mensaje.
+
+b) Describe una función sumar con dos parámetros "sumando1" y "sumando2". Se realiza la suma de los parámetros y posteriormente se muestra por pantalla el resultado. Luego se evalúa la función pasándole como parámetros 5 y 6.

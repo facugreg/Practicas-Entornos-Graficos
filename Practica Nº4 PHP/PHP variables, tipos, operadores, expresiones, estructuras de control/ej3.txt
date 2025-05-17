@@ -1,0 +1,10 @@
+Ejercicio 3
+
+a) El código se utiliza para generar una tabla de 5 filas y 2 columnas.
+
+b) El código se utiliza para realizar un formulario en el que se pregunta la edad y muestra si es mayor o menor.
+
+El formulario utiliza "POST" para enviar datos al mismo archivo. Para enviar los datos al mismo archivo se utiliza :"_SERVER['PHP_SELF']".
+Cuando se envía, se verifica si el "submit" del formulario esta seteado. Si lo está, comprueba el valor de la edad y se imprime un mensaje correspondiente.
+
+

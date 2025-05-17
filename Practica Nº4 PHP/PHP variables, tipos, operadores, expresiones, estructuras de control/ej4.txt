@@ -1,0 +1,6 @@
+Ejercicio 4
+
+En la primera linea se mostrará la palabra "El" y warnings ya que los valores de las variables no estarán definidas para ese momento. Mientras que en la segunda linea (luego de la inclusión) se  mostrarán los valores correctamente. En definitiva la salida por pantalla será:
+
+El El clavel blanco
+

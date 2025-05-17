@@ -1,0 +1,3 @@
+Ejercicio 5
+
+El archivo contador.php interactúa con el archivo .dat para leerlo y asignar un contador a su contenido y lo incrementa. Luego, lo muestra por pantalla. Posteriormente, el archivo visitas.php ejecuta el script contador.php.

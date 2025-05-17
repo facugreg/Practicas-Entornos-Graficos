@@ -1,0 +1,33 @@
+Ejercicio 1
+
+Variables y su tipo:
+-a= boolean
+-b= string
+-c= string
+-d= integer
+-f= integer
+-g= integer
+
+Operadores:
+-Unario:  ++
+-Binario: $d += 4;
+-Ternario: $d = $a ? ++$d : $d*3;
+
+Funciones y sus parámetros: function doble($i) {
+ return $i*2;
+}
+
+La función se llama "doble" y su parámetro es "i".
+
+Estructuras de control: 
+if (is_int($d)) {
+ $d += 4;
+}
+
+
+if (is_string($a)) {
+ echo "Cadena: $a";
+}
+
+Salida por pantalla: 
+boolean string string integer 1 xyz xyz 18 44 44

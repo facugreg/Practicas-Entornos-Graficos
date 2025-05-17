@@ -1,0 +1,12 @@
+Ejercicio 2
+
+a) Salida por pantalla: bar 1
+
+b) Salida por pantalla: 5 9 42
+
+c) Salida por pantalla: No muestra nada por pantalla ya que no hay ningún "echo". Sin embargo realiza algunas operaciones sobre la matriz, las cuales son:
+- Crea una matriz asociativa con las claves 5 y 12.
+- Agrega un valor 56
+- Agrega una clave-valor "x"-42
+- Realiza unset de la clave 5
+- Realiza unset de la matriz
