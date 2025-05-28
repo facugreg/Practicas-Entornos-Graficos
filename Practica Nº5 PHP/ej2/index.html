@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario de contacto</title>
+  </head>
+
+  <body>
+    <form action="procesar.php" method="post">
+      <label for="mail">Correo electronico</label>
+      <input
+        type="email"
+        name="mail"
+        id="mail"
+        required
+        placeholder="Ingrese su correo electronico"
+      />
+      <br />
+      <br / >
+      <label for="asunto">Asunto del correo</label>
+      <input
+        type="text"
+        name="asunto"
+        id="asunto"
+        required
+        placeholder="Ingrese el asunto del correo"
+      />
+      <br / > <br / >
+      <label for="cuerpo">Cuerpo del mensaje</label>
+      <input
+        type="textarea"
+        name="cuerpo"
+        id="cuerpo"
+        required
+        placeholder="Ingrese el cuerpo del mensaje"
+      />
+      <br />
+      <input type="submit" value="Enviar Formulario" />
+    </form>
+  </body>
+</html>

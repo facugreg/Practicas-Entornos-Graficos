@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Envio de mail</title>
+  </head>
+  <body>
+    <h1 text-align="center">Envio de mail</h1>
+    <form action="procesar.php" method="POST">
+      Ingrese destinatario:<input type="email" name="destinatario" required />
+      <br />
+      Ingrese asunto:<input type="text" name="asunto" required />
+      <br />
+      Ingrese cuerpo del mensaje:<input type="text" name="cuerpo" required />
+      <br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
