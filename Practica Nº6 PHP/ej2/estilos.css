@@ -1,0 +1,13 @@
+table {
+  border-collapse: collapse;
+  width: 80%;
+}
+
+td,
+th {
+  border: 1px solid black;
+  text-align: center;
+}
+th {
+  background-color: rgb(204, 204, 204);
+}
